@@ -1,0 +1,1 @@
+app-openai-ollama-pinecone.py

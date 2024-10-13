@@ -1,0 +1,33 @@
+[global]
+# 직접 실행 시 경고 표시 (기본값: true)
+#showWarningOnDirectExecution = true
+
+[server]
+# Streamlit 서버 포트 (기본값: 8501)
+#port = 8501
+# GUI 없이 서버 실행 (기본값: false)
+#headless = false
+# 파일 저장 시 자동으로 앱 재실행 (기본값: false)
+#runOnSave = false
+# CORS(Cross-Origin Resource Sharing) 활성화 (기본값: true)
+#enableCORS = true
+# XSRF 보호 활성화 (기본값: true)
+#enableXsrfProtection = true
+# 최대 파일 업로드 크기 (기본값: 200MB)
+maxUploadSize = 20
+
+[browser]
+# 사용 통계 수집 (기본값: true)
+#gatherUsageStats = true
+# 서버 주소 (기본값: "localhost")
+#serverAddress = "localhost"
+
+[map]
+# 지도 API 키 (기본값: "")
+#apiKey = ""
+
+[client]
+
+[logger]
+# 로깅 레벨 (예: error, warning, info, debug)
+#level = "info"
