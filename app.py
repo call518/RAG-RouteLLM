@@ -1,1 +1,1 @@
-app-openai-ollama-pinecone.py
+app-openai-ollama-pinecone-02.py
