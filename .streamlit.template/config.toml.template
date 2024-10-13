@@ -5,6 +5,8 @@
 [server]
 # Streamlit 서버 포트 (기본값: 8501)
 #port = 8501
+# Settings의 "Run on save" 활성/비활성
+runOnSave = true
 # GUI 없이 서버 실행 (기본값: false)
 #headless = false
 # 파일 저장 시 자동으로 앱 재실행 (기본값: false)
