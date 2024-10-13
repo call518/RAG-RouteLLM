@@ -364,6 +364,8 @@ def main():
                 message(st.session_state["chat_history_user"][i], is_user=True, key=str(i) + '_user')
                 message(st.session_state["chat_history_ai"][i], key=str(i))
                 
+                st.write(f"A.I: {st.session_state['selected_ai']}, LLM: {st.session_state['llm'].model}")
+                
                 # 소스 데이터 표시
                 rag_contexts = st.session_state["chat_history_rag_contexts"][i]
                 if rag_contexts:
