@@ -364,7 +364,13 @@ def main():
                 message(st.session_state["chat_history_user"][i], is_user=True, key=str(i) + '_user')
                 message(st.session_state["chat_history_ai"][i], key=str(i))
                 
-                st.write(f"A.I: {st.session_state['selected_ai']}, LLM: {st.session_state['llm'].model}")
+                # AI 모델 정보 표시
+                ai_model = st.session_state.get('llm', None)
+                if ai_model:
+                    llm_model_name = ai_model.model_name if hasattr(ai_model, 'model_name') else ai_model.model
+                else:
+                    llm_model_name = "Unknown LLM"
+                st.write(f"A.I.: {st.session_state.get('selected_ai', 'Unknown AI')} / LLM: {llm_model_name}")
                 
                 # 소스 데이터 표시
                 rag_contexts = st.session_state["chat_history_rag_contexts"][i]
