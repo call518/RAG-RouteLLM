@@ -3,3 +3,4 @@ chromadb/*
 uploads/*
 *.txt
 *.pdf
+!requirements.txt
