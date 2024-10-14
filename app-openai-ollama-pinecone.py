@@ -1,3 +1,5 @@
+# pip install -U langchain-community bs4 langchain_pinecone pinecone-client[grpc] langchain-openai streamlit-chat streamlit-js-eval pypdf
+
 import streamlit as st
 from streamlit_chat import message
 from streamlit_js_eval import streamlit_js_eval
