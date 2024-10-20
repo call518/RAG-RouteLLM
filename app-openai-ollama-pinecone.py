@@ -87,7 +87,7 @@ def is_valid_url(url):
 
 # Pinecone 관련 설정
 pc = Pinecone()
-pinecone_index_name = 'rag-service'
+pinecone_index_name = 'rag-routellm'
 def reset_pinecone(index_name=pinecone_index_name):
     pc.delete_index(index_name)
 
