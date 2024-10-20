@@ -36,8 +36,8 @@ os.environ["LANGCHAIN_PROJECT"]= "RAG-Service"
 os.environ["PINECONE_API_KEY"] = st.secrets["KEYS"]["PINECONE_API_KEY"]
 
 # 페이지 정보 정의
-st.set_page_config(page_title="Play RAG", page_icon=":books:", layout="wide")
-st.title(":books: _:red[Play RAG] OpenAI(Ollama) /w Pinecone_")
+st.set_page_config(page_title="RAG-RouteLLM", page_icon=":books:", layout="wide")
+st.title(":books: _:red[RAG-RouteLLM] OpenAI(Ollama) /w Pinecone_")
 
 # Initialize session state with default values
 default_values = {
